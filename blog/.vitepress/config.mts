@@ -25,7 +25,8 @@ export default defineConfig({
         text: 'Posts',
         items: [
           { text: 'First', link: '/posts/first' },
-          { text: 'Second', link: '/posts/second' }
+          { text: 'Second', link: '/posts/second' },
+          { text: 'Third', link: '/posts/third' }
         ]
       }
     ],
