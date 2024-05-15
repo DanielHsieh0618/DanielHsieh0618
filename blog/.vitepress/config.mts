@@ -1,7 +1,8 @@
 import { defineConfig } from 'vitepress'
+import { withPwa } from '@vite-pwa/vitepress'
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+export default withPwa(defineConfig({
   title: "Hsiu's Site",
   description: "Hsiu site",
   head: [
@@ -34,5 +35,8 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/DanielHsieh0618/DanielHsieh0618' }
     ]
+  },
+  sitemap: {
+    hostname: 'https://example.com'
   }
-})
+}))
