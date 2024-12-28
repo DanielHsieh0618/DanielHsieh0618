@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 前往文章
-      link: /posts/
+      link: /posts/Vitepress 搬家到 Astro/
 
 features:
   - title: 編程

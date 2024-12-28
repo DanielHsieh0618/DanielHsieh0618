@@ -1,8 +1,8 @@
 
 # Vitepress 搬家到 Astro
 
-靜態網站生成的框架 ( SSGs - Static Site Generators ) 從 Jekyll, Hugo, Hexo, Vuepress, Vitepress 到現在的 Astro，總類繁多且不停迭代。
-Astro 起先看到 [Developer roadmap](https://roadmap.sh/frontend) 中看到的，後來發現它可以兼容 React 及 Vue.js，就決定一定要來用看看。
+靜態網站生成的框架 ( Static Site Generators ) 從 Jekyll, Hugo, Hexo, Vuepress, Vitepress 到現在的 Astro，總類繁多且不停迭代。
+Astro 起先看從 [Developer roadmap](https://roadmap.sh/frontend) 看到的，後來發現它可以兼容 React 及 Vue.js，就決定一定要來用看看。
 
 有請 ChatGPT 解釋 「什麼是 Static Site Generators (SSGs)」 ?
 > Static Site Generators (SSGs) 是一種工具，用於生成靜態網站。這些工具通過將內容（通常是 Markdown 或其他格式的文件）和模板結合起來，生成靜態 HTML 文件。這些靜態文件可以直接部署到任何網路伺服器上，無需後端伺服器處理動態內容請求。
