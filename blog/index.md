@@ -3,18 +3,18 @@
 layout: home
 
 hero:
-  name: "Hsiu's Site"
-  text: "Welcome you !!"
-  tagline: Coding, development, and some things
+  name: "Hsiu's 543"
+  text: "歡迎你 🤗"
+  tagline: 前端開發跟有的沒的...
   actions:
     - theme: brand
-      text: Go !
-      link: /posts/first
+      text: 前往文章
+      link: /posts/
 
 features:
-  - title: Coding
-    details: Good code style 
-  - title: Development
-    details: develop some useful apps
+  - title: 編程
+    details: 寫一些看不懂的 codes
+  - title: 開發
+    details: 做一些不一定用得到的功能
 ---
 

@@ -25,9 +25,9 @@ export default withPwa(defineConfig({
       {
         text: 'Posts',
         items: [
-          { text: 'First', link: '/posts/first' },
-          { text: 'Second', link: '/posts/second' },
-          { text: 'Third', link: '/posts/third' }
+          { text: 'Vitepress 搬家到 Astro', link: '/posts/Vitepress 搬家到 Astro/' },
+          { text: '[ WIP ] 什麼是 codecov', link: '/posts/[WIP]什麼是codecov/' },
+          { text: '[ WIP ] 怎麼用 Github copilot 來 code review?', link: '/posts/[ WIP ] 怎麼用 Github copilot 來 code review/' }
         ]
       }
     ],
@@ -38,5 +38,6 @@ export default withPwa(defineConfig({
   },
   sitemap: {
     hostname: 'https://example.com'
-  }
+  },
+  cleanUrls: true,
 }))
