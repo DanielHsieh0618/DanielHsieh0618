@@ -5,8 +5,6 @@ pubDate: 'Jan 5 2025'
 heroImage: '/blog-placeholder-1.jpg'
 ---
 
-# Vitepress 搬家到 Astro
-
 靜態網站生成的框架 ( Static Site Generators ) 從 Jekyll, Hugo, Hexo, Vuepress, Vitepress 到現在的 Astro，總類繁多且不停迭代。
 Astro 起先是從 [Developer roadmap](https://roadmap.sh/frontend) 看到的，後來發現它可以兼容 React 及 Vue.js，就決定一定要來用看看。
 
