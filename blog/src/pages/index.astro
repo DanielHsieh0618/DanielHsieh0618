@@ -1,0 +1,21 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>Hello, 歡迎你 !!</h1>
+			<p>這裡紀錄了一些程式開發有關的內容，還有一些不確定的東西...</p>
+		</main>
+		<Footer />
+	</body>
+</html>
