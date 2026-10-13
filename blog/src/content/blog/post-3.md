@@ -1,6 +1,6 @@
 ---
-title: 'Vitepress 搬家到 Astro'
-description: 'Vitepress 搬家到 Astro'
+title: 'Blog 從 Vitepress 搬家到 Astro'
+description: 'Blog 從 Vitepress 搬家到 Astro'
 pubDate: 'Jan 5 2025'
 heroImage: '/blog-placeholder-1.jpg'
 ---
